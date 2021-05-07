@@ -1,0 +1,11 @@
+name: VPNCheck
+version: ${project.version}
+main: me.great_array.vpncheck.VPN
+api-version: 1.16
+authors: [ Great_Array ]
+description: A simple and lightweight proxy and vpn detector! Powered by proxycheck.io
+
+
+commands:
+  vpn:
+    description: The main one for all VpnCheck plugin, can be used to whitelist/blacklist/check stats/reload configs etc.

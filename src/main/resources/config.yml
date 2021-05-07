@@ -1,0 +1,122 @@
+Settings:
+  Key: ""
+  BanProxy: false
+  Api_Timeout: 5000
+  CheckForVpn: true
+
+BannedCountries:
+  - CN
+  - TH
+Messages:
+  BlacklistedMessage:
+    - |-
+      &r
+      &8&m---------------------------------
+      &6&lVPN&e&lCheck&r
+      &r
+      &fSorry but your IP has been flagged and blaklisted by our system.
+      &8(&e$IP&8)
+      &8&m---------------------------------
+      &r
+      &fMistake? Contact us:
+      &ediscord.gg/example
+  ScanningMessage:
+    - |-
+      &r
+      &8&m---------------------------------
+      &6&lVPN&e&lCheck&r
+      &r
+      &fWe are scanning your connection, please rejoin!
+      &8(&e$IP&8)
+      &8&m---------------------------------
+  HelpMessage:
+    - |-
+      &8&m---------------&r &6&lVPN&e&lCheck&r &8&m----------------&r
+       &8» &7Type &e/vpn &7to view the help message
+       &8» &7Type &e/vpn whitelist &7to view the &ewhitelist &7usage
+       &8» &7Type &e/vpn notify &7to view the &enotify &7usage
+       &8» &7Type &e/vpn panel &7to open the &econtrol panel
+      &r&f
+       &7Type &e/vpn help 2 &7to view more help messages
+      &8&m-----------------------------------------&r
+  HelpMessage2:
+    - |-
+      &8&m---------------&r &6&lVPN&e&lCheck&r &8&m----------------&r
+       &8» &7Type &e/vpn reload &7to &ereload &7the plugin's config files
+       &8» &7Type &e/vpn clear blacklist &7to &eclear &7the blacklist chase
+       &8» &7Type &e/vpn clear whitelist &7to &eclear &7the whitelist chase
+       &8» &7Type &e/vpn country ban <country> &7to &eban &7a country from the server
+       &8» &7Type &e/vpn country unban &7to &eunban &7a country from the server
+      &8&m-----------------------------------------&r&n
+  QueriesTodayMessage: ' &8» &eQueries Today: &f$queryToday'
+  DailyLimitMessage: ' &8» &eDaily Limit: &f$dailyLimit'
+  QueriesTotalMessage: ' &8» &eQueries Total: &f$queryTotal'
+  AccountTierMessage: ' &8» &eAccount Tier: &f$accountTier'
+  BurstTokensMessage: ' &8» &eBurst Tokens: &f$burstTokens'
+  WhitelistMessage:
+    - |-
+      &8» &7Usage: &e/vpn whitelist <ip> &7&o- Adds IP to whitelist
+      &8» &7Usage: &e/vpn unwhitelist <ip> &7&o- Removes IP from whitelist
+  BlacklistMessage:
+    - |-
+      &8» &7Usage: &e/vpn blacklist <ip> &7&o- Adds IP to whitelist
+      &8» &7Usage: &e/vpn unblacklist <ip> &7&o- Removes IP from blacklist
+  AlreadyWhitelistedMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7is &ealready &7whitelisted'
+  AlreadyBlacklistedMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7is &ealready &7blacklisted'
+  NotWhitelistedMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7is &enot &7whitelisted'
+  NotBlacklistedMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7is &enot &7blacklisted'
+  AddedToWhitelistMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7has been &ewhitelisted'
+  AddedToBlacklistMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7has been &eblacklisted'
+  RemovedFromWhitelistMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7has been &eremoved &7from the whitelist'
+  RemovedFromBlacklistMessage:
+    - ' &6&lVPN&e&lCheck &8» &7IP &e$IP &7has been &eremoved &7from the blacklist'
+  NotifyMessage:
+    - |-
+      &8» &7Usage: &e/vpn notify on &7&o- Turn notify on
+      &8» &7Usage: &e/vpn notify off &7&o- Turn notify off
+  NotifyAlreadyOnMessage:
+    - ' &6&lVPN&e&lCheck &8» &7Your join notify is already &aon'
+  NotifyAlreadyOffMessage:
+    - ' &6&lVPN&e&lCheck &8» &7Your join notify is already &coff'
+  NotifyNowOnMessage:
+    - ' &6&lVPN&e&lCheck &8» &7Join notify is now &aenabled'
+  NotifyNowOffMessage:
+    - ' &6&lVPN&e&lCheck &8» &7Join notify is now &cdisabled'
+  NotValidIpMessage:
+    - ' &6&lVPN&e&lCheck &8» &7Sorry but &e$IP &7is not a valid &eIP'
+  NoPermissionMessage:
+    - ' &6&lVPN&e&lCheck &8» &7Sorry but you do not have the &epermission &7for this!'
+  ReloadConfigsMessage:
+    - ' &aVPNCheck has been successfully reloaded!'
+  ClearMessage:
+    - |-
+      &8» &7Type &e/vpn clear blacklist &7to &eclear &7the blacklist chase
+      &8» &7Type &e/vpn clear whitelist &7to &eclear &7the whitelist chase
+  ClearedBlacklistMessage: ' &8» &7Cleared the &eblacklist chase'
+  ClearedWhitelistMessage: ' &8» &7Cleared the &ewhitelist chase'
+  CountryMessage:
+    - |-
+      &8» &7Type &e/vpn country ban <country> &7to &eban &7a country from the server
+      &8» &7Type &e/vpn country unban &7to &eunban &7a country from the server
+  BannedCountryMessage: ' &8» &7Successfully &ebanned &7country &e$country &7from
+    this server'
+  AlreadyBannedCountryMessage: ' &8» &e$country &7is already &ebanned &7from this server'
+  NotBannedCountryMessage: ' &8» &e$country &7is not &ebanned &7on this server'
+  UnbannedCountryMessage: ' &8» &7Successfully &eun-banned &7country &e$country &7from
+    this server'
+
+  PlayerBlacklistedMessage: ' &8» &eIP $IP &7tried to join using a &eproxy/VPN &7and has been blacklisted'
+  PlayerWhitelistedMessage: ' &8» &eIP $IP &7has passed all checks and is now &ewhitelisted'
+  BlacklistedTriedToJoinMessage: ' &8» &7Blacklisted IP &e$IP &7has tried to join the server'
+  BannedCountryJoinMessage: ' &8» &eIP $IP &7has tried to join but is from a banned country &8(&e$country&8)'
+
+Permissions:
+  VpnCommand: vpn.command.admin
+  Reload: vpn.command.reload
